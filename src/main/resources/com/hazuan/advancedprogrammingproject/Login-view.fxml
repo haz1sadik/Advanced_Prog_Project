@@ -33,7 +33,7 @@
             <Circle fill="#1f93ff00" layoutX="92.0" layoutY="223.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
             <ImageView fitHeight="200.0" fitWidth="185.0" layoutX="21.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@SmartWaterBottle.png" />
+                  <Image url="@Images/SmartWaterBottle.png" />
                </image>
             </ImageView>
          </children></AnchorPane>

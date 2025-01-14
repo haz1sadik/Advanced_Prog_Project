@@ -11,12 +11,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.sql.*;
 
 public class LoginController {
     private static Statement stmt;
-
+    Parent root;
 
     @FXML
     Button btnLogin;
@@ -29,7 +28,8 @@ public class LoginController {
     @FXML
     Label lblInvalid;
 
-    public void loginEvent(ActionEvent event) throws IOException {
+
+    public void loginEvent(ActionEvent event)  {
         initializeDB();
         String query = "SELECT count(1) FROM Scores WHERE username = ? AND password = ?";
         String username = tfUsername.getText();
@@ -41,7 +41,12 @@ public class LoginController {
                 ResultSet resultSet = pstmt.executeQuery();
                 while (resultSet.next()){
                     if (resultSet.getInt(1) == 1){
-                        Parent root = FXMLLoader.load(getClass().getResource("Dashboard-view.fxml"));
+                        FXMLLoader loader = new FXMLLoader(getClass().getResource("Dashboard-view.fxml"));
+                        root = loader.load();
+
+                        DashboardController dashboardController = loader.getController();
+                        dashboardController.setUsername(username);
+                        //Parent root = FXMLLoader.load(getClass().getResource("Dashboard-view.fxml"));
                         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                         Scene scene = new Scene(root);
                         stage.setScene(scene);
@@ -56,7 +61,7 @@ public class LoginController {
         }
     }
 
-    public void closeEvent(ActionEvent event){
+    public void closeEvent(){
         Stage stage = (Stage) btnCancel.getScene().getWindow();
         stage.close();
     }

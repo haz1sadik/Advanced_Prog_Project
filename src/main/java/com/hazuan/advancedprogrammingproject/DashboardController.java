@@ -1,26 +1,32 @@
 package com.hazuan.advancedprogrammingproject;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javafx.stage.Stage;
-
-import java.io.IOException;
-import java.sql.*;
 
 public class DashboardController {
+    String username;
+
     @FXML
     Circle connectIndicator;
     @FXML
     Button btnConnect;
+    @FXML
+    Label lblHi;
     public void connButtonEvent(){
+        if (connectIndicator.getFill() == Color.RED){
+            connectIndicator.setFill(Color.GREEN);
+            btnConnect.setText("Connected");
+        } else {
+            connectIndicator.setFill(Color.RED);
+            btnConnect.setText("Connect");
+        }
+    }
 
+    public void setUsername(String username){
+        this.username = username;
+        lblHi.setText("Hi, " + this.username);
     }
 }

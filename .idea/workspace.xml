@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdeff747-e54c-4737-b22d-f50b3af76b8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c490.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabook/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Dashboard-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/MapView.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/SmartWaterBottle.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2rZG6v7l0m7LU6XHNnp0v0FC49Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/User/Downloads/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbytools.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2321839"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="AdvancedProgrammingProject" />
+      <option name="VM_PARAMETERS" value="--add-exports org.apache.derby.tools/org.apache.derby.tools=com.hazuan.advancedprogrammingproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdeff747-e54c-4737-b22d-f50b3af76b8c" name="Changes" comment="" />
+      <created>1736759013728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736759013728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeff747-e54c-4737-b22d-f50b3af76b8c" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/CREATEDATABASE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Dashboard-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/Downloads/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbytools.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2321839",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Downloads/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbytools.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="AdvancedProgrammingProject" />
@@ -81,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736830391510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1736874506646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736874506646</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

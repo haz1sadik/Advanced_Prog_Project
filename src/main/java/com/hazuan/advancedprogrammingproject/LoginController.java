@@ -31,7 +31,7 @@ public class LoginController {
 
     public void loginEvent(ActionEvent event)  {
         initializeDB();
-        String query = "SELECT count(1) FROM Scores WHERE username = ? AND password = ?";
+        String query = "SELECT count(1) FROM Userdata WHERE username = ? AND password = ?";
         String username = tfUsername.getText();
         String password = tfPassword.getText();
         if (!tfUsername.getText().isBlank() && !tfPassword.getText().isBlank()){
@@ -44,9 +44,10 @@ public class LoginController {
                         FXMLLoader loader = new FXMLLoader(getClass().getResource("Dashboard-view.fxml"));
                         root = loader.load();
 
+                        //sending username to DashboardController
                         DashboardController dashboardController = loader.getController();
-                        dashboardController.setUsername(username);
-                        //Parent root = FXMLLoader.load(getClass().getResource("Dashboard-view.fxml"));
+                        dashboardController.setUsername(username, stmt);
+
                         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                         Scene scene = new Scene(root);
                         stage.setScene(scene);

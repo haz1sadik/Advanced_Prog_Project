@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hazuan.advancedprogrammingproject.UserInfoController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="185.0" />
+      <AnchorPane prefHeight="600.0" prefWidth="515.0">
+         <children>
+            <Label fx:id="lblTestLabel" layoutX="114.0" layoutY="269.0" text="Info Scene" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

@@ -1,6 +1,6 @@
 connect 'jdbc:derby:javabook;create=true;user=scott;password=tiger';
 
-drop table Scores;
+drop table Userdata;
 CREATE TABLE USERDATA (
     USERNAME VARCHAR(20),
     PASSWORD VARCHAR(20),
@@ -18,6 +18,7 @@ CREATE TABLE USERDATA (
     CYCLING_TIME INTEGER
 );
 
-INSERT INTO USERDATA VALUES('John','John',''JOHN', 30, 190.0, 67.55, 3434, 7.56, 234, '5''''48"', 43, 90, 33, 65);
-INSERT INTO USERDATA VALUES('Michael', 'Michael', ''MICHAEL', 23, 140.0, 78.45, 5632, 3.56, 321, '4''''65"', 56, 40, 12, 45);
-INSERT INTO USERDATA VALUES('Michelle', 'Michelle', '''MICHELLE', 60, 160.0, 65.32, 1234, 1.56, 456, '8''''13"', 80, 59, 44, 40);
+INSERT INTO USERDATA VALUES('John', 'John', 'JOHN', 30, 190.0, 67.55, 3434, 7.59, 234, '5''48"', 4399, 90, 33, 65);
+INSERT INTO USERDATA VALUES('Michael', 'Michael', 'MICHAEL', 23, 140.0, 78.45, 5632, 3.56, 321, '4''65"', 5476, 40, 12, 45);
+INSERT INTO USERDATA VALUES('Michelle', 'Michelle', 'MICHELLE', 60, 160.0, 65.32, 1234, 1.56, 456, '8''13"', 8230, 59, 44, 40);
+

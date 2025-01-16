@@ -5,32 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeff747-e54c-4737-b22d-f50b3af76b8c" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/javabook/seg0/c4a0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/CreateDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/HealthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/UserInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/WaterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Health-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/UserInfo-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Water-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/CSC3202 ASSIGNMENT 3 (223877).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/Cycling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/DashboardWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/GlassWater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/HealthBrown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/HealthWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/Map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/Running.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/UserIconBrown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/UserIconWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/Water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/WaterDropletBrown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Images/WaterDropletWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Register-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c10.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c180.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c1a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c141.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c241.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c380.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c391.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c3a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c3b1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c41.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c490.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c51.dat" afterDir="false" />
@@ -40,13 +43,19 @@
       <change beforePath="$PROJECT_DIR$/javabook/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/c90.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/ca1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javabook/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/cc0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/cc0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/seg0/ce1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/ce1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabook/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabook/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/javabook/seg0/cf0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/HealthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/HealthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/WaterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hazuan/advancedprogrammingproject/WaterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/CREATEDATABASE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/CREATEDATABASE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Dashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Health-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Health-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/UserInfo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/UserInfo-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Water-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hazuan/advancedprogrammingproject/Water-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +74,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -76,22 +88,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Downloads/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbytools.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Advanced Programming Project/src/main/resources/com/hazuan/advancedprogrammingproject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2321839",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Advanced Programming Project\src\main\resources\com\hazuan\advancedprogrammingproject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Advanced Programming Project\src\main\resources\com\hazuan\advancedprogrammingproject\Images" />
     </key>
@@ -141,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736874890187</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1736881052738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736881052738</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

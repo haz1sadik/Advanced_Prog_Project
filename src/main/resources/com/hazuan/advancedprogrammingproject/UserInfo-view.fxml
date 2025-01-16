@@ -1,16 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hazuan.advancedprogrammingproject.UserInfoController">
-   <children>
-      <AnchorPane prefHeight="600.0" prefWidth="185.0" />
-      <AnchorPane prefHeight="600.0" prefWidth="515.0">
-         <children>
-            <Label fx:id="lblTestLabel" layoutX="114.0" layoutY="269.0" text="Info Scene" />
-         </children>
-      </AnchorPane>
-   </children>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hazuan.advancedprogrammingproject.UserInfoController">
+   <AnchorPane prefHeight="600.0" prefWidth="199.0">
+      <ImageView fitHeight="64.0" fitWidth="104.0" layoutX="45.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@Images/Nike.png" />
+      </ImageView>
+      <Button layoutX="66.0" layoutY="133.0" mnemonicParsing="false" onAction="#dashboardBtnEvent" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 20; -fx-background-color: #fffef3;" textFill="RED">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@Images/Dashboard.png" />
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.15228430926799774" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="45.0" layoutY="203.0" text="Dashboard" textAlignment="CENTER" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="45.33333333333334">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="65.0" layoutY="246.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 20; -fx-background-color: #f1dba9;" textFill="RED">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@Images/UserIconWhite.png" />
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.15228430926799774" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="44.0" layoutY="316.0" text="User Info" textAlignment="CENTER" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="45.33333333333333">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="65.0" layoutY="362.0" mnemonicParsing="false" onAction="#healthBtnEvent" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 20; -fx-background-color: #fffef3;" textFill="RED">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@Images/HealthBrown.png" />
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.15228430926799774" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="44.0" layoutY="432.0" text="Health" textAlignment="CENTER" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="45.33333333333333">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="64.0" layoutY="475.0" mnemonicParsing="false" onAction="#waterBtnEvent" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 20; -fx-background-color: #fffef3;" textFill="RED">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@Images/WaterDropletBrown.png" />
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.15228430926799774" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="545.0" text="Water" textAlignment="CENTER" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="45.33333333333333">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+   <AnchorPane prefHeight="600.0" prefWidth="515.0" style="-fx-background-color: #fffef3; -fx-background-radius: 60 0 0 60;">
+      <effect>
+         <DropShadow height="35.0" radius="17.0" width="35.0">
+            <color>
+               <Color opacity="0.15482233464717865" />
+            </color>
+         </DropShadow>
+      </effect>
+      <Label fx:id="lblFullName" layoutX="135.66666666666666" layoutY="95.0" text="John Cash" AnchorPane.leftAnchor="135.66666666666666">
+         <font>
+            <Font name="Montserrat ExtraBold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEmailTop" layoutX="135.66666666666666" layoutY="124.0" text="john@gmail.com" AnchorPane.leftAnchor="135.66666666666666">
+         <font>
+            <Font name="Montserrat Regular" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="65.0" fitWidth="73.0" layoutX="53.666666666666664" layoutY="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="53.666666666666664">
+         <Image url="@Images/UserIcon.png" />
+      </ImageView>
+      <Line endX="200.0" layoutX="255.0" layoutY="165.0" startX="-200.0" stroke="#bc8d0054" strokeWidth="3.0" />
+      <Line endX="200.0" layoutX="255.0" layoutY="232.0" startX="-200.0" stroke="#bc8d0054" />
+      <Line endX="200.0" layoutX="255.0" layoutY="299.0" startX="-200.0" stroke="#bc8d0054" />
+      <Line endX="200.0" layoutX="251.0" layoutY="366.0" startX="-200.0" stroke="#bc8d0054" />
+      <Line endX="200.0" layoutX="253.0" layoutY="433.0" startX="-200.0" stroke="#bc8d0054" />
+      <Label fx:id="lblUsername" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="408.33333333333337" layoutY="186.0" text="John" textAlignment="RIGHT" AnchorPane.rightAnchor="54.333333333333314">
+         <font>
+            <Font name="Montserrat Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEmail" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="299.66666666666663" layoutY="389.0" text="john@gmail.com" textAlignment="RIGHT" AnchorPane.rightAnchor="53.0">
+         <font>
+            <Font name="Montserrat Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPhoneNum" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="319.0" layoutY="320.0" text="+6019-8790765" textAlignment="RIGHT" AnchorPane.rightAnchor="54.33333333333337">
+         <font>
+            <Font name="Montserrat Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAge" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="434.33333333333337" layoutY="254.0" text="21" textAlignment="RIGHT" AnchorPane.rightAnchor="56.333333333333314">
+         <font>
+            <Font name="Montserrat Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="186.0" text="Username">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="388.0" text="Email">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="320.0" text="Phone">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="255.0" text="Age">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+   </AnchorPane>
 </HBox>

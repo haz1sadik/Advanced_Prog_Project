@@ -11,11 +11,13 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.sql.*;
 
 public class LoginController {
     private static Statement stmt;
     Parent root;
+    Stage stage;
 
     @FXML
     Button btnLogin;
@@ -46,7 +48,7 @@ public class LoginController {
 
                         //sending username to DashboardController
                         DashboardController dashboardController = loader.getController();
-                        dashboardController.setUsername(username, stmt);
+                        dashboardController.setUsername(username);
 
                         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                         Scene scene = new Scene(root);
@@ -57,8 +59,10 @@ public class LoginController {
                     }
                 }
             }catch (Exception ex){
-                ex.printStackTrace();
+                System.out.println("Error: " + ex);
             }
+        }else {
+            lblInvalid.setText("Please enter username and password");
         }
     }
 
@@ -76,8 +80,15 @@ public class LoginController {
             stmt = connection.createStatement();
         } catch (Exception ex) {
             System.out.println("Error during DB initialization: " + ex.getMessage());
-            ex.printStackTrace();
+            System.out.println("Error: " + ex);
         }
+    }
+    public void registerEvent(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Register-view.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
 }

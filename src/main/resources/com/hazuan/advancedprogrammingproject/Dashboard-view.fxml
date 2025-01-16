@@ -16,275 +16,280 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="600.0" maxWidth="1030.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hazuan.advancedprogrammingproject.DashboardController">
-   <children>
-      <AnchorPane fx:id="leftAnchorPane" prefHeight="600.0" prefWidth="650.0">
-         <children>
-            <Rectangle fx:id="mapCard" arcHeight="5.0" arcWidth="5.0" height="495.0" layoutX="58.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 170; -fx-arc-width: 170;" width="516.0" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="58.66666666666663" AnchorPane.topAnchor="53.0">
-               <fill>
-                  <LinearGradient>
-                     <stops>
-                        <Stop>
-                           <color>
-                              <Color red="1.0" green="0.9310699701309204" blue="0.7932098507881165" />
-                           </color>
-                        </Stop>
-                        <Stop offset="1.0">
-                           <color>
-                              <Color red="0.8157894611358643" green="0.6848602890968323" blue="0.5539311170578003" />
-                           </color>
-                        </Stop>
-                     </stops>
-                  </LinearGradient>
-               </fill>
-               <effect>
-                  <DropShadow blurType="GAUSSIAN" height="60.0" radius="29.5" width="60.0">
+<HBox maxHeight="600.0" maxWidth="1030.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hazuan.advancedprogrammingproject.DashboardController">
+   <AnchorPane prefHeight="600.0" prefWidth="650.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="495.0" layoutX="58.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 170; -fx-arc-width: 170;" width="516.0" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="58.66666666666663" AnchorPane.topAnchor="53.0">
+         <fill>
+            <LinearGradient>
+               <stops>
+                  <Stop>
                      <color>
-                        <Color opacity="0.15228427946567535" />
+                        <Color red="1.0" green="0.9310699701309204" blue="0.7932098507881165" />
                      </color>
-                  </DropShadow>
-               </effect>
-            </Rectangle>
-            <Rectangle fx:id="distanceCard" arcHeight="5.0" arcWidth="5.0" height="118.0" layoutX="229.0" layoutY="416.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 70; -fx-arc-width: 70;" width="175.0">
-               <fill>
-                  <LinearGradient endX="0.324921147680433" startX="1.0">
-                     <stops>
-                        <Stop>
-                           <color>
-                              <Color red="1.0" green="0.9310699701309204" blue="0.7932098507881165" />
-                           </color>
-                        </Stop>
-                        <Stop offset="1.0">
-                           <color>
-                              <Color red="0.8157894611358643" green="0.6848602890968323" blue="0.5539311170578003" />
-                           </color>
-                        </Stop>
-                     </stops>
-                  </LinearGradient>
-               </fill>
-               <effect>
-                  <DropShadow blurType="GAUSSIAN" height="60.0" radius="29.5" width="60.0">
+                  </Stop>
+                  <Stop offset="1.0">
                      <color>
-                        <Color opacity="0.11675126850605011" />
+                        <Color red="0.8157894611358643" green="0.6848602890968323" blue="0.5539311170578003" />
                      </color>
-                  </DropShadow>
-               </effect>
-            </Rectangle>
-            <ImageView fx:id="mapView" fitHeight="343.0" fitWidth="500.0" layoutX="68.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" smooth="false">
-               <image>
-                  <Image url="@Images/MapView.png" />
-               </image>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="60.0" radius="29.5" width="60.0">
+               <color>
+                  <Color opacity="0.15228427946567535" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="118.0" layoutX="229.0" layoutY="416.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 70; -fx-arc-width: 70;" width="175.0">
+         <fill>
+            <LinearGradient endX="0.324921147680433" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9310699701309204" blue="0.7932098507881165" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8157894611358643" green="0.6848602890968323" blue="0.5539311170578003" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="60.0" radius="29.5" width="60.0">
+               <color>
+                  <Color opacity="0.11675126850605011" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="81.0" fitWidth="104.0" layoutX="271.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <Image url="@Images/Map.png" />
+      </ImageView>
+      <ImageView fx:id="mapView" fitHeight="343.0" fitWidth="500.0" layoutX="68.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" smooth="false" visible="false">
+         <Image url="@Images/MapView.png" />
+      </ImageView>
+      <Label layoutX="274.0" layoutY="432.0" text="Distance" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat ExtraBold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDistanceKM" alignment="CENTER" layoutX="249.0" layoutY="456.0" text="0 KM" textAlignment="CENTER" AnchorPane.leftAnchor="249.0" AnchorPane.rightAnchor="247.33333333333326">
+         <font>
+            <Font name="Montserrat Black" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSteps" alignment="CENTER" layoutX="257.0" layoutY="495.0" prefHeight="23.0" prefWidth="119.0" text="0 steps" textAlignment="CENTER" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="256.0">
+         <font>
+            <Font name="Montserrat ExtraBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="429.0" text="Avg.pace" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPace" alignment="CENTER" layoutX="84.0" layoutY="453.0" text="0" textAlignment="CENTER" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="412.66666666666674">
+         <font>
+            <Font name="Montserrat Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="484.0" text="/KM" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="439.0" layoutY="429.0" text="Elevation" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblElevationM" alignment="CENTER" layoutX="442.0" layoutY="453.0" prefHeight="29.0" prefWidth="81.0" text="0 M" textAlignment="CENTER" AnchorPane.leftAnchor="442.0" AnchorPane.rightAnchor="110.0">
+         <font>
+            <Font name="Montserrat Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="484.0" text="Gain" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="52.0" fitWidth="70.0" layoutX="33.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@Images/Nike.png" />
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane prefHeight="600.0" prefWidth="456.0">
+      <Label layoutY="114.0" text="Bottle connection">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="connectIndicator" fill="RED" layoutX="181.0" layoutY="126.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" />
+      <Button fx:id="btnConnect" alignment="CENTER" layoutY="151.0" mnemonicParsing="false" onAction="#connBtnEvent" prefHeight="39.0" prefWidth="136.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" text="Connect" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow blurType="GAUSSIAN">
+               <color>
+                  <Color opacity="0.15000000596046448" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label fx:id="lblHi" alignment="CENTER" layoutY="64.0" text="Hi, ">
+         <font>
+            <Font name="Montserrat Black" size="32.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" layoutX="1.0" layoutY="226.0" spacing="10.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( to bottom right, #f5ede1, #d7d0c9);">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="20.0" radius="9.5" width="20.0">
+               <color>
+                  <Color opacity="0.14974619448184967" />
+               </color>
+            </DropShadow>
+         </effect>
+         <Button fx:id="btnUserInfo" alignment="BASELINE_CENTER" mnemonicParsing="false" onAction="#userInfoBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <graphic>
+               <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@Images/UserIcon.png" />
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="btnHealth" alignment="BASELINE_CENTER" layoutX="20.0" layoutY="19.0" mnemonicParsing="false" onAction="#healthBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <graphic>
+               <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@Images/Health.png" />
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="btnWater" alignment="BASELINE_CENTER" layoutX="125.0" layoutY="19.0" mnemonicParsing="false" onAction="#waterBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <graphic>
+               <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@Images/WaterDroplet.png" />
+               </ImageView>
+            </graphic>
+         </Button>
+      </HBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutY="348.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 60; -fx-arc-width: 60;" width="175.0">
+         <fill>
+            <LinearGradient>
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9647058844566345" green="0.9176470637321472" blue="0.9176470637321472" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9372549057006836" green="0.8235294222831726" blue="0.8235294222831726" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.15000000596046448" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="189.0" layoutY="348.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 60; -fx-arc-width: 60;" width="175.0">
+         <fill>
+            <LinearGradient>
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9215686321258545" green="0.9647058844566345" blue="0.9176470637321472" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8196078538894653" green="0.9529411792755127" blue="0.8078431487083435" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.10999999940395355" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="69.0" fitWidth="43.0" layoutX="62.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@Images/Fire.png" />
+      </ImageView>
+      <Label fx:id="lblCalories" alignment="CENTER" layoutX="25.0" layoutY="444.0" prefHeight="39.0" prefWidth="125.0" text="0" textAlignment="CENTER" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="268.3333333333333">
+         <font>
+            <Font name="Montserrat ExtraBold" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="25.0" layoutY="483.0" text="kcal burnt" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat Medium" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="49.0" fitWidth="64.0" layoutX="249.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@Images/Battery.png" />
+      </ImageView>
+      <Label fx:id="lblPercentage" alignment="CENTER" layoutX="242.0" layoutY="444.0" text="0%" textAlignment="CENTER" AnchorPane.leftAnchor="242.0" AnchorPane.rightAnchor="106.0">
+         <font>
+            <Font name="Montserrat ExtraBold" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="233.0" layoutY="483.0" text="battery" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat Medium" size="24.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="322.0" layoutY="35.0" mnemonicParsing="false" onAction="#logoutEvent" style="-fx-background-color: #D9BB9B; -fx-background-radius: 20;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@Images/LogoutWhite.png" />
             </ImageView>
-            <Label fx:id="lblDistance" layoutX="274.0" layoutY="432.0" text="Distance" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat ExtraBold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblDistanceKM" alignment="CENTER" layoutX="249.0" layoutY="456.0" text="7.56 KM" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat Black" size="32.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblSteps" layoutX="265.0" layoutY="495.0" text="8438 steps" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat ExtraBold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblAvgPace" layoutX="109.0" layoutY="429.0" text="Avg.pace" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblPace" alignment="CENTER" layoutX="120.0" layoutY="453.0" text="7'53&quot;" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat Black" size="24.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblKM" layoutX="133.0" layoutY="484.0" text="/KM" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblElevation" layoutX="439.0" layoutY="429.0" text="Elevation" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblElevationM" alignment="CENTER" layoutX="453.0" layoutY="453.0" text="151M" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat Black" size="24.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblGain" layoutX="461.0" layoutY="484.0" text="Gain" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="52.0" fitWidth="70.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Images/Adidas.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane fx:id="rightAnchorPane" prefHeight="600.0" prefWidth="456.0">
-         <children>
-            <Label layoutY="114.0" text="Bottle connection">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-            </Label>
-            <Circle fx:id="connectIndicator" fill="RED" layoutX="181.0" layoutY="126.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" />
-            <Button fx:id="btnConnect" alignment="CENTER" layoutY="151.0" mnemonicParsing="false" onAction="#connBtnEvent" prefHeight="39.0" prefWidth="136.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" text="Connect" textFill="WHITE">
-               <font>
-                  <Font name="Montserrat SemiBold" size="18.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-               <effect>
-                  <DropShadow blurType="GAUSSIAN">
-                     <color>
-                        <Color opacity="0.15000000596046448" />
-                     </color>
-                  </DropShadow>
-               </effect>
-            </Button>
-            <Label fx:id="lblHi" alignment="CENTER" layoutY="64.0" text="Hi, ">
-               <font>
-                  <Font name="Montserrat Black" size="32.0" />
-               </font>
-            </Label>
-            <HBox fx:id="menuCardHbox" alignment="CENTER_LEFT" layoutX="1.0" layoutY="226.0" spacing="10.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( to bottom right, #f5ede1, #d7d0c9);">
-               <children>
-                  <Button fx:id="btnUserInfo" alignment="BASELINE_CENTER" mnemonicParsing="false" onAction="#userInfoBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                     <graphic>
-                        <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@Images/UserIcon.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button fx:id="btnHealth" alignment="BASELINE_CENTER" layoutX="20.0" layoutY="19.0" mnemonicParsing="false" onAction="#healthBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                     <graphic>
-                        <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@Images/Health.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button fx:id="btnWater" alignment="BASELINE_CENTER" layoutX="125.0" layoutY="19.0" mnemonicParsing="false" onAction="#waterBtnEvent" prefHeight="69.0" prefWidth="110.0" style="-fx-background-color: #D9BB9B; -fx-background-radius: 80;" textFill="WHITE">
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                     <graphic>
-                        <ImageView fitHeight="35" fitWidth="35" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@Images/WaterDroplet.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-               </children>
-               <padding>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-               </padding>
-               <effect>
-                  <DropShadow blurType="GAUSSIAN" height="20.0" radius="9.5" width="20.0">
-                     <color>
-                        <Color opacity="0.14974619448184967" />
-                     </color>
-                  </DropShadow>
-               </effect>
-            </HBox>
-            <Rectangle fx:id="calorieCard" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutY="348.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 60; -fx-arc-width: 60;" width="175.0">
-               <fill>
-                  <LinearGradient>
-                     <stops>
-                        <Stop>
-                           <color>
-                              <Color red="0.9647058844566345" green="0.9176470637321472" blue="0.9176470637321472" />
-                           </color>
-                        </Stop>
-                        <Stop offset="1.0">
-                           <color>
-                              <Color red="0.9372549057006836" green="0.8235294222831726" blue="0.8235294222831726" />
-                           </color>
-                        </Stop>
-                     </stops>
-                  </LinearGradient>
-               </fill>
-               <effect>
-                  <DropShadow>
-                     <color>
-                        <Color opacity="0.15000000596046448" />
-                     </color>
-                  </DropShadow>
-               </effect>
-            </Rectangle>
-            <Rectangle fx:id="batteryCard" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="189.0" layoutY="348.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 60; -fx-arc-width: 60;" width="175.0">
-               <fill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop>
-                           <color>
-                              <Color red="0.9215686321258545" green="0.9647058844566345" blue="0.9176470637321472" />
-                           </color>
-                        </Stop>
-                        <Stop offset="1.0">
-                           <color>
-                              <Color red="0.8196078538894653" green="0.9529411792755127" blue="0.8078431487083435" />
-                           </color>
-                        </Stop>
-                     </stops>
-                  </LinearGradient>
-               </fill>
-               <effect>
-                  <DropShadow>
-                     <color>
-                        <Color opacity="0.10999999940395355" />
-                     </color>
-                  </DropShadow>
-               </effect>
-            </Rectangle>
-            <ImageView fx:id="imgFire" fitHeight="69.0" fitWidth="43.0" layoutX="62.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Images/Fire.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="lblCalories" alignment="CENTER" layoutX="47.0" layoutY="444.0" text="2705" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat ExtraBold" size="32.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblKcalBurnt" alignment="CENTER" layoutX="25.0" layoutY="483.0" text="kcal burnt" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat Medium" size="24.0" />
-               </font>
-            </Label>
-            <ImageView fx:id="imgBattery" fitHeight="49.0" fitWidth="64.0" layoutX="249.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Images/Battery.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="lblPercentage" alignment="CENTER" layoutX="242.0" layoutY="444.0" text="79%" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat ExtraBold" size="32.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblBattery" alignment="CENTER" layoutX="233.0" layoutY="483.0" text="battery" textAlignment="CENTER">
-               <font>
-                  <Font name="Montserrat Medium" size="24.0" />
-               </font>
-            </Label>
-         </children></AnchorPane>
-   </children>
+         </graphic>
+         <font>
+            <Font name="Montserrat SemiBold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow blurType="GAUSSIAN">
+               <color>
+                  <Color opacity="0.15000000596046448" />
+               </color>
+            </DropShadow>
+         </effect>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </Button>
+   </AnchorPane>
 </HBox>

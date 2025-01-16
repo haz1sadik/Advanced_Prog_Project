@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
@@ -15,7 +16,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.sql.*;
 
-public class DashboardController {
+public class DashboardController{
     String username;
     Parent root;
     private static Statement  stmt;
@@ -25,32 +26,21 @@ public class DashboardController {
     @FXML
     Button btnConnect;
     @FXML
-    Label lblHi, lblDistanceKM, lblSteps, lblElevationM, lblPace, lblCalories;
+    Label lblHi, lblDistanceKM, lblSteps, lblElevationM, lblPace, lblCalories, lblPercentage;
     @FXML
     Button btnUserInfo, btnHealth, btnWater;
+    @FXML
+    ImageView mapView;
 
     public void connBtnEvent(){
-        initializeDB();
-        String query = "SELECT name, steps, distance_km, elevation_m, pace, calories_burnt FROM Userdata WHERE username = ?";
-        try (PreparedStatement pstmt = stmt.getConnection().prepareStatement(query)) {
-            pstmt.setString(1, username.trim());
-            ResultSet resultSet = pstmt.executeQuery();
-            while (resultSet.next()){
-                lblSteps.setText(resultSet.getString(2) + " steps");
-                lblDistanceKM.setText(resultSet.getString(3) + " KM");
-                lblElevationM.setText(resultSet.getString(4) + "M");
-                lblPace.setText(resultSet.getString(5));
-                lblCalories.setText(resultSet.getString(6));
-            }
-        }catch (Exception ex){
-            ex.printStackTrace();
-        }
         if (connectIndicator.getFill() == Color.RED){
             connectIndicator.setFill(Color.GREEN);
             btnConnect.setText("Connected");
+            lblPercentage.setText("75%");
         } else {
             connectIndicator.setFill(Color.RED);
             btnConnect.setText("Connect");
+            lblPercentage.setText("0%");
         }
     }
 
@@ -95,10 +85,34 @@ public class DashboardController {
         stage.show();
     }
 
-    public void setUsername(String username, Statement stmt){
+    public void logoutEvent(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Login-view.fxml"));
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+
+    public void setUsername(String username){
         this.username = username;
-        this.stmt = stmt;
         lblHi.setText("Hi, " + this.username);
+        initializeDB();
+        String query = "SELECT name, steps, distance_km, elevation_m, pace, calories_burnt FROM Userdata WHERE username = ?";
+        try (PreparedStatement pstmt = stmt.getConnection().prepareStatement(query)) {
+            pstmt.setString(1, username.trim());
+            ResultSet resultSet = pstmt.executeQuery();
+            while (resultSet.next()){
+                lblSteps.setText(resultSet.getString(2) + " steps");
+                lblDistanceKM.setText(resultSet.getString(3) + " KM");
+                lblElevationM.setText(resultSet.getString(4) + "M");
+                lblPace.setText(resultSet.getString(5));
+                lblCalories.setText(resultSet.getString(6));
+                mapView.setVisible(true);
+            }
+        }catch (Exception ex){
+            System.out.println("Error occurred: " + ex);
+        }
     }
 
     private static void initializeDB() {
@@ -111,7 +125,6 @@ public class DashboardController {
             stmt = connection.createStatement();
         } catch (Exception ex) {
             System.out.println("Error during DB initialization: " + ex.getMessage());
-            ex.printStackTrace();
         }
     }
 }
